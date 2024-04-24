@@ -1,0 +1,76 @@
+        /* Stili CSS */
+        .image-container {
+            text-align: center; /* Centra il contenuto */
+        }
+
+        .image {
+            width: 200px; /* Larghezza del contenitore */
+            height: 150px; /* Altezza del contenitore */
+
+        }
+
+        .image-name {
+            margin-top: -40px; /* Aggiunge spazio tra l'immagine e il nome */
+            color:#b4975b;
+        }
+
+        .topnav {
+            background-color: rgb(255, 255, 255);
+            overflow: hidden;
+            z-index: 1000;
+            text-align: center;
+        }
+        
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            color: #b4975b;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration:none;
+            font-size: 17px;
+        }
+        
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: #5c4c2c;
+        }
+        
+        /* Add a color to the active/current link 
+        .topnav a.active {
+            background-color: #998474;
+            color: #5c4c2c;
+        }*/
+
+        .topnav div{
+            text-align: center;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            color: #b4975b;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+          }
